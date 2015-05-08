@@ -58,32 +58,40 @@ a:hover, a:active {
 }
 /*image/logo***************************************/
 
-img{
+#logo{
     padding:10% 45%
 
 }
-/*aboutme****************************************/
 
-#container h1{
+/*header*******************************************/
+
+
+
+.header h1{
 
     color: lightskyblue;
-   padding: 5% 30%;
+    padding: 5% 30%;
 
 
 
 
 }
-#container{
+.header{
     border: solid 1px black;
     width: 500px;
-margin-left: 30%;
+    margin-left: 30%;
     padding: 5%;
 
 
 
 
 }
-/*footer*****************************/
+.header a{
+
+    background-color:lightskyblue;
+}
+/*footer****************************************/
+
 footer{
     float:left;
     clear: both;

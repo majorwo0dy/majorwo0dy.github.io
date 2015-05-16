@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+
+    <link rel="stylesheet" href="/css/blog.css?v=1">
+</head>
+<body>
+
+
+
+<div id="imgzone" style="overflow: hidden !important;">
+    <div style="margin-bottom:10px;">Drop a cover image here or</div>
+
+    <span id="imgbutton" class="center btn  green"
+          style="position: relative;
+          overflow: hidden;
+          direction: ltr;">Select an image
+        <input qq-button-id="95c913b9-385a-4437-b3d7-8879b6488116"
+               accept="image/*,image/*;capture=camera"
+               type="file" name="qqfile" style="position: absolute;
+               right: 0px; top: 0px; font-family: Arial; font-size: 118px;
+                margin: 0px; padding: 0px; cursor: pointer; opacity: 0;"></span> </div>
+
+<input type="text" id="p-title" name="p-title" value="Type the title" autocomplete="off"
+       spellcheck="false" onfocus="if (this.value == 'Type the title') {this.value = '';}"
+       onblur="if (this.value == '') {this.value = 'Type the title';}" data-notblank="true"
+       data-regexp="^(?!Type the title$)" data-error-message="Please type the title"
+       required="required" class="parsley-validated">
+
+
+
+
+<div class="redactor-editor redactor-placeholder"
+     contenteditable="true" dir="ltr" placeholder="Type the body" style="min-height: 90px;"><p>​</p></div>
+
+
+
+
+
+
+
+
+
+
+
+<input id="btnpublish" type="button" onclick="savepublish();return false;" value="Publish" class="btn btn-big green">
+
+
+
+<input id="btndraft" type="button" onclick="savedraft();return false;" value="Save draft" class="btn btn-small gray">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

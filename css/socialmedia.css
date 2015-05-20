@@ -1,0 +1,57 @@
+/*container*******************************************/
+
+.social {
+    display: inline-block;
+    font-size: 0;
+    margin-left: 15px;
+    padding-left: 15px;
+    height: 20px;
+}
+
+/*icons***********************************************/
+.social a {
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background: url(../images/hd-social-icons-d48ff1f8aa663454c9a47c664f42ee37.png) no-repeat;
+    overflow: hidden;
+    text-indent: -999em;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+a, button, button:focus {
+    outline: none;
+}
+a {
+    color: #428bca;
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+.social a.tw {
+    background-position: -24px 0;
+}
+.social a.yt {
+    background-position: -72px 0;
+}
+.social a.it {
+    background-position: -170px 0;
+}
+.social a.tu {
+    background-position: -96px 0;
+}
+.social a.tv {
+    background-position: -120px 0;
+}
+.social a.vi {
+    background-position: -145px 0;
+}
+.social a.ns {
+    background-position: -196px 0;
+}
+.social a.rs {
+    background-position: -222px 0;
+}

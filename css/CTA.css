@@ -1,0 +1,96 @@
+
+/*logo*********************************************************************************/
+section#opener article .icon {
+    background: url(../images/4riversogo.png) no-repeat;
+    background-size: contain;
+    display: block;
+    height: 128px;
+    margin: 0 auto 30px;
+    width: 128px;
+}
+/*article********************************************************************/
+
+section#opener article {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+}
+section#opener article h1 {
+    background-size: 364px auto;
+    margin: 0 0 0.25em;
+}
+section#opener article h1 {
+    background-position: center 13%;
+    background-size: 364px auto;
+}
+section#opener article h1 {
+    padding: 0;
+    background-position: center center;
+}
+section#opener article h1 {
+    background-size: 300px auto;
+    padding-top: 0;
+    margin-bottom: 0;
+    background-position: center top;
+}
+section#opener.large h1 {
+    font-size: 5em;
+    font-family: 'Knockout 47 A', 'Knockout 47 B';
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.13em;
+}
+
+/*video*********************************************************/
+section#opener .bg-video video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 0;
+}
+/*button******************************************/
+.btn.btn--gold {
+    background-color: #ae8648;
+    color: #fff;
+}
+.btn {
+    transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+    background-color: #fff;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ae8648;
+    display: inline-block;
+    font-family: 'Verlag A', 'Verlag B';
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 1.3em !important;
+    letter-spacing: 0.15em;
+    line-height: 1em;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    min-width: 160px;
+}

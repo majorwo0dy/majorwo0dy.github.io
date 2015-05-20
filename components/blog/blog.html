@@ -5,11 +5,11 @@
     <title></title>
 
 
-    <link rel="stylesheet" href="/css/blog.css?v=1">
+    <link rel="stylesheet" href="../../css/blog.css">
 </head>
 <body>
 
-
+<section>
 
 <div id="imgzone" style="overflow: hidden !important;">
     <div style="margin-bottom:10px;">Drop a cover image here or</div>
@@ -32,26 +32,14 @@
 
 
 
-
 <div class="redactor-editor redactor-placeholder"
      contenteditable="true" dir="ltr" placeholder="Type the body" style="min-height: 90px;"><p>​</p></div>
 
 
+    <input id="btnpublish" type="button" onclick="savepublish();return false;" value="Publish" class="btn btn-big green">
 
-
-
-
-
-
-
-
-
-<input id="btnpublish" type="button" onclick="savepublish();return false;" value="Publish" class="btn btn-big green">
-
-
-
-<input id="btndraft" type="button" onclick="savedraft();return false;" value="Save draft" class="btn btn-small gray">
-
+    <input id="btndraft" type="button" onclick="savedraft();return false;" value="Save draft" class="btn btn-small gray">
+    </section>
 
 
 
@@ -72,6 +60,6 @@
 
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<script src="js/main.js"></script>
+<script src="../../js/main.js"></script>
 </body>
 </html>

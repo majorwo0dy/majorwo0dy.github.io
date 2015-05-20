@@ -1,0 +1,119 @@
+header{
+    border:solid 1px #000000;
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+
+}
+/*logo**********************************/
+#logo {
+    float: left;
+    padding: 4% 10%;}
+
+    #logo:hover{
+    -moz-animation: spinHorizontal .8s infinite linear;
+    -o-animation: spinHorizontal .8s infinite linear;
+    -webkit-animation: spinHorizontal .8s infinite linear;
+    animation: spinHorizontal .8s infinite linear;
+}
+
+@-moz-keyframes spinHorizontal {
+    0% {
+        -moz-transform: rotateY(0deg);
+    }
+
+    100% {
+        -moz-transform: rotateY(360deg);
+    }
+}
+
+@keyframes spinHorizontal {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+
+@-ms-keyframes spinHorizontal {
+    0% {
+        -ms-transform: rotateY(0deg);
+    }
+    100% {
+        -ms-transform: rotateY(360deg);
+    }
+}
+
+@-o-keyframes spinHorizontal {
+    0% {
+        -o-transform: rotateY(0deg);
+    }
+    100% {
+        -o-transform: rotateY(360deg);
+    }
+}
+
+@-webkit-keyframes spinHorizontal {
+    0% {
+        -webkit-transform: rotateY(0deg);
+    }
+    100% {
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+
+.button{
+    cursor: pointer;
+}
+
+
+
+/*navigation*********************************/
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+nav  ul{
+
+    float: right;
+    width:50%;
+    padding:5%;
+    font-size: 1.5em;
+
+
+}
+nav  ul  li {
+    float:left;
+    margin-right: 10% ;
+    line-height:10%;
+
+
+}
+nav ul li a{
+    color: #ffffff;
+    font-family: sans-serif;
+
+}
+ul li a:active{
+    color: #FF853C;
+    
+    
+    
+}
+nav a.current {
+    background:#FF853C;
+    color:white;
+}
+nav ul li{
+    float: left;
+    margin: 5%;
+    -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out; }
+   nav ul li:hover { margin-top: 2px; }

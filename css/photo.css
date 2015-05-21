@@ -1,0 +1,25 @@
+/*section******************************************************/
+section{
+    margin-left: 25px;
+
+
+}
+
+/*Images*****************************************************/
+
+
+div.img {
+    margin: 1px;
+    padding: 1px;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+
+div.img a:hover img {
+
+    opacity:  0.7;
+}
+

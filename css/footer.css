@@ -12,12 +12,12 @@ footer{
 
 img{
     border-radius: 100%;
-    margin: -10px;
+    margin: -5px;
     margin-bottom: 10px;
 }
 #first{
     float: left;
-    margin-left: 440px;
+    margin-left: 650px;
     clear: both;
     margin-top: 10px;
 }
@@ -27,40 +27,41 @@ img{
 #info {
     float: left;
     color: #ffffff;
-    margin: 10px 150px;
+    margin: 10px 250px;
     font-size: 16px;
 
 }
 footer p{
     float: left;
     color: #ffffff;
-    text-align: center;
     clear: both;
     font-size: 10px;
+    margin-left: 230px;
 
 }
 footer a {
     float: left;
     clear: both;
     color: deepskyblue;
-    margin-left: 25px;
+    margin-left: 250px;
 }
 footer h4{
     float: left;
     clear: both;
     text-align: center;
     color: #ffffff;
+    margin-left: 230px;
 }
 footer li{
     float:left;
     margin-left:15px;
-    padding-left: 100px;
     color: #ffffff;
     margin-top: 20px;
+
 }
 #follow{
     float: left;
     clear: both;
     border-top: solid 3px #1c1c1c;
-    margin:25px 250px;
+    margin:40px 350px;
 }

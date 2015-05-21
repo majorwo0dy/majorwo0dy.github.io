@@ -98,7 +98,7 @@ aside p {
     width: 400px;
     float: left;
     clear: both;
-    margin-top: 20px;
+    margin-top: 200px;
 }
 #status h4{
     background-color:lightblue;
@@ -144,6 +144,7 @@ aside p {
     width: 600px;
     float: right;
     margin-right: 100px;
+    margin-top: -200px;
     clear: right;
 
 
@@ -171,6 +172,19 @@ aside p {
 }
 #myfriends a{
     float: left;
+
+
+}
+
+/*audio**************************************************/
+audio{
+    float: left;
+    margin: 20px 0px;
+    height:150px;
+    width: 400px;
+    clear: both;
+
+
 
 
 }

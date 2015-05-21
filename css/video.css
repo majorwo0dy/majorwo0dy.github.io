@@ -1,0 +1,65 @@
+
+body {
+    font-family: 'Open Sans','Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    color: #111;
+    line-height: 21px;
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+section{
+
+    height: 800px;
+    position:relative;
+
+
+}
+/*video*********************************************************/
+iframe{
+    float: left;
+    height:400px;
+    width: 800px;
+    margin:200px 150px;
+    position:absolute;
+
+}
+
+/*movie list****************************************************/
+
+ul{
+    float: right;
+    position: relative;
+    margin:200px 272px 0px 0px;
+    width: 200px;
+
+
+
+}
+ul li {
+
+    position: relative;
+    padding-top: 45px;
+    background-color: #000000;
+    border-top: solid 1px darkgrey;
+    color: #ffffff;
+}
+
+section h2{
+    float: left;
+    margin:650px 170px
+
+
+}
+
+a{
+    color: #ffffff;
+}
+.current {
+    background-color: green;
+    color: #ffffff;
+
+}

@@ -1,0 +1,96 @@
+/*section********************************************/
+section{
+    border: 1px dotted #F5F5F5;
+    background-color: #F5F5F5;
+    height: 100px;
+    width: 500px;
+    margin: 250px;
+    padding-top: 20px;
+    clear:both;
+    float: left;
+
+
+
+}
+section img{
+    float: left;
+    margin-left: -80px;
+    margin-top: -40px;
+
+
+
+}
+#zzz{
+    float: left;
+    margin: -100px -140px;
+
+
+
+}
+
+
+form{
+    float: left;
+    margin: -40px 20px;
+
+
+}
+section p{
+    font-size: 10px;
+    color: darkgray;
+    float: left;
+    margin-top: 28px;
+    margin-left: 25px;
+
+
+
+
+
+}
+/*input*******************************************************/
+
+input{
+    -moz-box-shadow:    inset 0 0 2px #e6e6e6;
+    -webkit-box-shadow: inset 0 0 2px #e6e6e6;
+    box-shadow:         inset 0 0 2px #e6e6e6;
+
+
+}
+#name{
+    margin: 10px 0px;
+
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+
+}
+
+/*button*******************************************************/
+
+input[type=submit] {
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    background: lightgoldenrodyellow;
+    padding:  20px;
+    border-radius:100%;
+    height: 80px;
+    float: right;
+    margin-left: 190px;
+    margin-top: -70px;
+    background-color: #ffc92b; background-image: -webkit-gradient(linear, left top, left bottom, from(#ffc92b), to(#ce9a01));
+    background-image: -webkit-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -moz-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -ms-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: -o-linear-gradient(top, #ffc92b, #ce9a01);
+    background-image: linear-gradient(to bottom, #ffc92b, #ce9a01);
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ffc92b, endColorstr=#ce9a01);
+}
+input[type=submit]:hover {
+    background: #ff2a98;
+    background-color: #ff2a98; background-image: -webkit-gradient(linear, left top, left bottom, from(#ff2a98), to(#bc0062));
+    background-image: -webkit-linear-gradient(top, #ff2a98, #bc0062);
+    background-image: -moz-linear-gradient(top, #ff2a98, #bc0062);
+    background-image: -ms-linear-gradient(top, #ff2a98, #bc0062);
+    background-image: -o-linear-gradient(top, #ff2a98, #bc0062);
+    background-image: linear-gradient(to bottom, #ff2a98, #bc0062);
+    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff2a98, endColorstr=#bc0062);
+}

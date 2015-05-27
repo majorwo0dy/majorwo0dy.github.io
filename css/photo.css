@@ -6,9 +6,10 @@ section{
 }
 
 /*Images*****************************************************/
+/*deleted divs no need for them, called out the anchor instead*/
 
 
-div.img {
+a {
     margin: 1px;
     padding: 1px;
     height: auto;
@@ -18,7 +19,7 @@ div.img {
 }
 
 
-div.img a:hover img {
+ a:hover img {
 
     opacity:  0.7;
 }

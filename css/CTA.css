@@ -1,6 +1,7 @@
 
 /*logo*********************************************************************************/
-section#opener article .icon {
+/*makes more sense to call the icon a logo also put it in a id instead of class, there is only one*/
+section#opener article #logo {
     background: url(../images/4riversogo.png) no-repeat;
     background-size: contain;
     display: block;
@@ -9,6 +10,7 @@ section#opener article .icon {
     width: 128px;
 }
 /*article********************************************************************/
+/*deleted the other section no need for two, also deleted the large opener id name and added it to article h1*/
 
 section#opener article {
     position: relative;
@@ -39,8 +41,6 @@ section#opener article h1 {
     padding-top: 0;
     margin-bottom: 0;
     background-position: center top;
-}
-section#opener.large h1 {
     font-size: 5em;
     font-family: 'Knockout 47 A', 'Knockout 47 B';
     font-weight: 400;
@@ -49,8 +49,11 @@ section#opener.large h1 {
     letter-spacing: 0.13em;
 }
 
+
 /*video*********************************************************/
-section#opener .bg-video video {
+/*got rid of the div for this video because there is only one video and I can call that out directly*/
+
+video {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,23 +67,21 @@ section#opener .bg-video video {
     z-index: 0;
 }
 /*button******************************************/
-.btn.btn--gold {
+/*no need for a btn gold id, just add the color the btn id instead*/
+
+.btn {
     background-color: #ae8648;
     color: #fff;
-}
-.btn {
     transition: 0.2s ease;
     -moz-transition: 0.2s ease;
     -webkit-transition: 0.2s ease;
     -o-transition: 0.2s ease;
-    background-color: #fff;
     border-radius: 3px;
     border: none;
     cursor: pointer;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    color: #ae8648;
     display: inline-block;
     font-family: 'Verlag A', 'Verlag B';
     font-weight: 700;

@@ -6,11 +6,12 @@ header{
 
 }
 /*logo**********************************/
-#logo {
+/*changed logo to img tag, no need for logo div**************************/
+img {
     float: left;
     padding: 4% 10%;}
 
-    #logo:hover{
+    img:hover{
     -moz-animation: spinHorizontal .8s infinite linear;
     -o-animation: spinHorizontal .8s infinite linear;
     -webkit-animation: spinHorizontal .8s infinite linear;

@@ -19,7 +19,8 @@ section{
 
 }
 /*video*********************************************************/
-iframe{
+/*never use iframe its for supporting old browsers***************************/
+video{
     float: left;
     height:400px;
     width: 800px;
@@ -42,7 +43,7 @@ ul{
 ul li {
 
     position: relative;
-    padding-top: 45px;
+    padding-top: 23px;
     background-color: #000000;
     border-top: solid 1px darkgrey;
     color: #ffffff;

@@ -1,6 +1,7 @@
 /*container*******************************************/
+/* changed all the class to id tags they will only be used once*/
 
-.social {
+#social {
     display: inline-block;
     font-size: 0;
     margin-left: 15px;
@@ -9,7 +10,7 @@
 }
 
 /*icons***********************************************/
-.social a {
+#social a {
     display: inline-block;
     width: 24px;
     height: 20px;
@@ -31,27 +32,27 @@ a {
 a {
     background: transparent;
 }
-.social a.tw {
+#social a.tw {
     background-position: -24px 0;
 }
-.social a.yt {
+#social a.yt {
     background-position: -72px 0;
 }
-.social a.it {
+#social a.it {
     background-position: -170px 0;
 }
-.social a.tu {
+#social a.tu {
     background-position: -96px 0;
 }
-.social a.tv {
+#social a.tv {
     background-position: -120px 0;
 }
-.social a.vi {
+#social a.vi {
     background-position: -145px 0;
 }
-.social a.ns {
+#social a.ns {
     background-position: -196px 0;
 }
-.social a.rs {
+#social a.rs {
     background-position: -222px 0;
 }

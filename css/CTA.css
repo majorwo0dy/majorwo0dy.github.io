@@ -10,7 +10,7 @@ section#opener article #logo {
     width: 128px;
 }
 /*article********************************************************************/
-/*deleted the other section no need for two, also deleted the large opener id name and added it to article h1*/
+/*deleted the other section no need for two, also deleted the large opener id name and added all code to article h1*/
 
 section#opener article {
     position: relative;

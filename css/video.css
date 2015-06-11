@@ -32,9 +32,9 @@ video{
 /*movie list****************************************************/
 
 ul{
-    float: right;
+    float: left;
     position: relative;
-    margin:200px 272px 0px 0px;
+    margin:200px  240px 0px;
     width: 200px;
 
 
